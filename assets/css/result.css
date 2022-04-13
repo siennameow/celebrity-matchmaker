@@ -20,7 +20,7 @@ html, body {
 }
 
 
-.card-footer, h1, h2, ul, p {
+.card-footer, h1, h2, ul, p, a {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;

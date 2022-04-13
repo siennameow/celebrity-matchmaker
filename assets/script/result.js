@@ -2,7 +2,7 @@
 // var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=American%20male%20film%20actors"
 
 //retrive the image from wikipedia api
-var celeName = "Ariana Grande"
+var celeName = "Margot Robbie"
 
 // var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=Ariana%20Grande"
 var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=" + celeName.replace(" ", "%20")
@@ -16,19 +16,50 @@ fetch(requestUrl + "&origin=*")
 .then(function (data) {
 //   console.log(data);
 //   var imageEl= $("<img>")
-
+// console.log(data.query.pages[0].pageimage)
 //   imageEl.attr("src", data.query.pages[0].original.source)
 //   imageEl.attr("style", "height:500px")
 $(".name").text(data.query.pages[0].title);
 //   var celeName = $(".name")
 //   celeName.text(data.query.pages[0].title)
+
 $(".img").attr("src", data.query.pages[0].original.source)
 $(".img").attr("style", "height:600px")
 
-// console.log(data.query.pages[0].pageimage)
-//   $(".card-header").append(imageEl);
+
+$(".intro").text("Oh come on – we all fell in love with  " + celeName + "  right? ");
+$(".wiki-link").text("Find out more info about  " + celeName + "  in Wikipedia. ");
+$(".wiki-link").attr("href", "https://en.wikipedia.org/wiki/  " +celeName.replace(" ", "_"))
+
+$(".people-link").text("See the recent news of " + celeName)
+$(".people-link").attr("href", "https://people.com/tag/"  + celeName.replace(" ", "-") + "/")
+
+$(".forbes-link").text("See the Forbes of " + celeName)
+$(".forbes-link").attr("href", "https://www.forbes.com/profile/"  + celeName.replace(" ", "-") + "/")
+
+
 
 });
 
+// https://www.forbes.com/profile/stephen-curry/
 
-// https://en.wikipedia.org/wiki/Ariana_Grande
+
+
+//Fetch 
+var url = "https://api.kanye.rest";
+
+ 
+
+fetch(url)
+
+    .then(function(response){return response.json();})
+
+    .then(function(response) {
+
+       console.log(response.quote)
+
+       $(".quote-content").text(response.quote +"  --  Kanye Quote" )
+    })
+
+    .catch(function(error){console.log(error);});
+
