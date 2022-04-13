@@ -49,7 +49,6 @@ $(".forbes-link").attr("href", "https://www.forbes.com/profile/"  + celeName.rep
 var url = "https://api.kanye.rest";
 
  
-
 fetch(url)
 
     .then(function(response){return response.json();})
