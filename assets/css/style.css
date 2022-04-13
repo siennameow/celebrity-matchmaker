@@ -1,22 +1,27 @@
-.body{
-    background-color: #f699cd;
-}
+
 
 .h1{
-    color: deeppink;
+    
     font-family: "Lobster", "cursive";
     text-align: center;
     font-weight: 900;
     background: url(https://media.giphy.com/media/10rtoKqcDukJgc/giphy.gif);
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: red;
+    color: deeppink;
+    
 }
 
 .h2{
-    color: deeppink;
+
     font-family: "Lobster", "cursive";
     text-align: center;
     font-weight: 700;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: red;
+    color: deeppink;
+}
+
+.body{
+    background-color: #f699cd;
 }
