@@ -58,7 +58,7 @@ fetch(url)
 
        console.log(response.quote)
 
-       $(".quote-content").text(response.quote +"  --  Kanye Quote" )
+       $(".quote-content").text('"'+response.quote +' " --  Kanye Quote ' )
     })
 
     .catch(function(error){console.log(error);});
