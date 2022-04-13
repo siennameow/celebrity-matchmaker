@@ -64,7 +64,7 @@ fetch(url)
     .catch(function(error){console.log(error);});
 
 //confetti
-var canvas = document.getElementById('custom_canvas')
+var canvas;
 
 var jsConfetti = new JSConfetti({ canvas })
 
