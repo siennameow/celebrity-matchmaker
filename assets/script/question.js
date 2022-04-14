@@ -1,22 +1,62 @@
-var girls = ['Zendaya','Margot Robbie','Megan Thee Stalion'];
+// celebrity choices 
+var girls = ['Zendaya','Margot Robbie','Saweetie'];
 var boys =['The Rock','Zac Efron','Justin Bieber'];
 var chooseCeleb =[];
+
+// event listeners for buttons
+
 $('#questionOneA').on('click',chooseBoys);
 $('#questionOneB').on('click',chooseGirls);
 $('#questionOneC').on('click',chooseBoth);
 
+var incrementB = 0;
+var incrementG = 0;
+var incrementBoth = 0;
+
 function chooseBoys(){
-    chooseCeleb.push(boys);
-    console.log(chooseCeleb)
+    incrementB++;
+    if(incrementB%2 !==0){
+        chooseCeleb.push(boys);
+        console.log(chooseCeleb)
+    }else{
+        chooseCeleb.splice(boys)
+        console.log(chooseCeleb)
+    }
 };
 
 function chooseGirls(){
-    chooseCeleb.push(girls);
-    console.log(chooseCeleb)
+    incrementG++;
+    if(incrementG%2 !==0){
+        chooseCeleb.push(girls);
+        console.log(chooseCeleb)
+    }else{
+        chooseCeleb.splice(girls);
+        console.log(chooseCeleb)
+    }
 };
 
 function chooseBoth(){
-    chooseCeleb.push(boys, girls)
-    console.log(chooseCeleb)
+    incrementBoth++;
+    if(incrementBoth%2 !==0){
+        chooseCeleb = boys.concat(girls)
+        console.log(chooseCeleb)
+    }else{
+        chooseCeleb.splice(boys);
+        chooseCeleb.splice(girls);
+        console.log(chooseCeleb)
+    }
+    console.log(celebPick)
+     showResult();
 };
 
+var celebPick ='';
+function showResult(){
+    chooseCeleb[
+        Math.floor(Math.random()*chooseCeleb.length)
+    ];
+    celebPick += chooseCeleb[
+        Math.floor(Math.random()*chooseCeleb.length)
+    ];   
+    console.log(celebPick)
+    
+}
