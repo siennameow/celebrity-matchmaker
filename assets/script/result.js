@@ -2,7 +2,7 @@
 // var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=American%20male%20film%20actors"
 
 //retrive the image from wikipedia api
-var celeName = "Selena Gomez"
+var celeName = "Shawn Mendes"
 
 // var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=Ariana%20Grande"
 var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=" + celeName.replace(" ", "%20")
