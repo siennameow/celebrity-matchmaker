@@ -1,27 +1,22 @@
 var girls = ['Zendaya','Margot Robbie','Megan Thee Stalion'];
 var boys =['The Rock','Zac Efron','Justin Bieber'];
 var chooseCeleb =[];
-
-$('questionOneA').on('click',chooseBoys());
-$('questionOneB').on('click',chooseGirls());
-
+$('#questionOneA').on('click',chooseBoys);
+$('#questionOneB').on('click',chooseGirls);
+$('#questionOneC').on('click',chooseBoth);
 
 function chooseBoys(){
     chooseCeleb.push(boys);
-
+    console.log(chooseCeleb)
 };
 
 function chooseGirls(){
     chooseCeleb.push(girls);
+    console.log(chooseCeleb)
 };
 
-console.log(chooseCeleb);
+function chooseBoth(){
+    chooseCeleb.push(boys, girls)
+    console.log(chooseCeleb)
+};
 
-// var girls = ['Zendaya','Margot Robbie','Megan Thee Stalion'];
-// console.log(girls);
-// var boys = ['The Rock','Zac Efron','Justin Bieber'];
-// console.log(boys)
-
-// var chooseCeleb =[];
-
-// console.log(chooseCeleb)
