@@ -1,8 +1,9 @@
 
-// var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=American%20male%20film%20actors"
 
+// var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=American%20male%20film%20actors"
 //retrive the image from wikipedia api
-var celeName = "Shawn Mendes"
+var celeName = celebPick;
+console.log(celebPick)
 
 // var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=Ariana%20Grande"
 var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=" + celeName.replace(" ", "%20")
@@ -91,3 +92,6 @@ setTimeout(() => {
 //       '#ff0a54', '#ff477e', '#ff7096', '#ff85a1', '#fbb1bd', '#f9bec7',
 //     ],
 //   })
+
+
+
