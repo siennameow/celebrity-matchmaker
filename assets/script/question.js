@@ -1,4 +1,4 @@
-var girls = ['Zendaya','Margot Robbie','Megan Thee Stalion'];
+var girls = ['Zendaya','Margot Robbie','Saweetie'];
 var boys =['The Rock','Zac Efron','Justin Bieber'];
 var chooseCeleb =[];
 $('#questionOneA').on('click',chooseBoys);
