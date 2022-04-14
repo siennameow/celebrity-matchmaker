@@ -91,3 +91,19 @@ setTimeout(() => {
 //       '#ff0a54', '#ff477e', '#ff7096', '#ff85a1', '#fbb1bd', '#f9bec7',
 //     ],
 //   })
+
+
+//celebrity ninjia API
+
+$.ajax({
+    method: 'GET',
+    url: 'https://api.celebrityninjas.com/v1/search?name=' + celeName,
+    headers: { 'X-Api-Key': 'Mkhgirf07Z/MG0OcpxClFg==PSUktbrAGqQFznd8'},
+    contentType: 'application/json',
+    success: function(result) {
+        console.log(result);
+    },
+    error: function ajaxError(jqXHR) {
+        console.error('Error: ', jqXHR.responseText);
+    }
+});
