@@ -14,16 +14,26 @@
 </head>
 <body>
     <hr>
-    <div class="content question">
-        <h3>Are you interested in guys,girls or both?</h3>
-    </div>
+    <header>
+        <h1>Please answer the question below</h1>
+        <p>Question 1 of 5</p>
+    </header>
+    <main>
+        <div class="content question">
+            <h3>Are you interested in guys,girls or both?</h3>
+        </div>
 
         <div class="buttons is-centered"> 
-        <button id="questionOneA" class="button is-outlined is-large is-danger">guys</button>
-        <button id="questionOneB" class="button is-outlined is-large is-danger">girls</button>
-        <button id="questionOneC" class="button is-outlined is-large is-danger" >both</button>
-    </div>
-
+            <button id="questionOneA" class="button is-outlined is-large is-danger">guys</button>
+            <button id="questionOneB" class="button is-outlined is-large is-danger">girls</button>
+            <button id="questionOneC" class="button is-outlined is-large is-danger">both</button>
+        </div>
+        <progress class="progress is-danger" value="16" max="100">16%</progress>
+            <br>
+        <div class="buttons is is-centered">
+            <a href="questiontwo.html"><button id="start-button" class="button is-danger is-outlined">Next Question</button></a>
+        </div>
+    </main>
     <script src="./assets/script/question.js"></script> 
 </body>
 </html>
