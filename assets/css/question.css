@@ -1,0 +1,61 @@
+
+
+.question{
+    text-align: center;
+    margin-top: 20%;
+}
+
+body{
+    height: 100vh;
+    background-color: #f699cd;
+}
+
+h2 {
+
+    font-family: "Lobster", "cursive";
+    text-align: center;
+    font-weight: 700;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: red;
+    color: deeppink;
+}
+
+.body{
+    background-color: #f699cd;
+    height: 100vh;
+}
+
+p {
+    font-family: "Lobster", "cursive";
+    color: deeppink;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: red;
+}
+
+.box {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    
+}
+
+button {
+    font-family: "Lobster", "cursive";
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    bottom: 0;
+}
+
+h1{
+    
+    font-family: "Lobster", "cursive";
+    text-align: center;
+    font-weight: 900;
+    background: url(https://media.giphy.com/media/10rtoKqcDukJgc/giphy.gif);
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: red;
+    color: white;
+    
+}
