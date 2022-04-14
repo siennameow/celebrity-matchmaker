@@ -1,11 +1,13 @@
-#questionHeader{
-    text-align: center;
-};
 
-.celebQuestion{
-    text-align: center;
-}
+
 
 .question{
     text-align: center;
+    margin-top: 20%;
 }
+
+body{
+    height: 100vh;
+    background-color: #f699cd;
+}
+
