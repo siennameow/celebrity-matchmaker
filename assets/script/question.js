@@ -38,25 +38,25 @@ function chooseGirls(){
 function chooseBoth(){
     incrementBoth++;
     if(incrementBoth%2 !==0){
-        chooseCeleb.push(boys, girls)
+        chooseCeleb = boys.concat(girls)
         console.log(chooseCeleb)
     }else{
         chooseCeleb.splice(boys);
         chooseCeleb.splice(girls);
         console.log(chooseCeleb)
     }
-    showResult();
     console.log(celebPick)
+     showResult();
 };
+
 var celebPick ='';
 function showResult(){
     chooseCeleb[
-        Math.floor(Math.random()*chooseCeleb)
+        Math.floor(Math.random()*chooseCeleb.length)
     ];
     celebPick += chooseCeleb[
         Math.floor(Math.random()*chooseCeleb.length)
-    ];
-
-
+    ];   
+    console.log(celebPick)
+    
 }
-
