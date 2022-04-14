@@ -1,6 +1,6 @@
 // celebrity choices 
 var girls = ['Zendaya','Margot Robbie','Saweetie'];
-var boys =['The Rock','Zac Efron','Justin Bieber'];
+var boys =['Tom Holland','Zac Efron','Justin Bieber'];
 var chooseCeleb =[];
 
 // event listeners for buttons
@@ -17,22 +17,20 @@ function chooseBoys(){
     incrementB++;
     if(incrementB%2 !==0){
         chooseCeleb.push(boys);
-        console.log(chooseCeleb)
     }else{
         chooseCeleb.splice(boys)
-        console.log(chooseCeleb)
     }
+    showResult();
 };
 
 function chooseGirls(){
     incrementG++;
     if(incrementG%2 !==0){
         chooseCeleb.push(girls);
-        console.log(chooseCeleb)
     }else{
         chooseCeleb.splice(girls);
-        console.log(chooseCeleb)
     }
+    showResult();
 };
 
 function chooseBoth(){
@@ -43,9 +41,7 @@ function chooseBoth(){
     }else{
         chooseCeleb.splice(boys);
         chooseCeleb.splice(girls);
-        console.log(chooseCeleb)
     }
-    console.log(celebPick)
      showResult();
 };
 
@@ -56,7 +52,9 @@ function showResult(){
     ];
     celebPick += chooseCeleb[
         Math.floor(Math.random()*chooseCeleb.length)
-    ];   
+    ];
+    
+    localStorage.setItem('celebPick',celebPick)
     console.log(celebPick)
     
 }
