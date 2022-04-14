@@ -45,7 +45,18 @@ function chooseBoth(){
         chooseCeleb.splice(girls);
         console.log(chooseCeleb)
     }
-
+    showResult();
+    console.log(celebPick)
 };
+var celebPick ='';
+function showResult(){
+    chooseCeleb[
+        Math.floor(Math.random()*chooseCeleb)
+    ];
+    celebPick += chooseCeleb[
+        Math.floor(Math.random()*chooseCeleb.length)
+    ];
 
-   
+
+}
+
