@@ -29,15 +29,15 @@ $(".img").attr("style", "height:600px")
 
 $(".intro").text("Oh come on! We all fell in love with  " + celeName + "  right? ");
 // $(".wiki-link").text("Find out more info about  " + celeName + "  in Wikipedia. ");
-$(".wiki-link").text("Wikipedia");
+$(".wiki-link").text("Wikipedia.com");
 $(".wiki-link").attr("href", "https://en.wikipedia.org/wiki/  " +celeName.replace(" ", "_"))
 
 // $(".people-link").text("See the recent news of " + celeName)
-$(".people-link").text("People")
+$(".people-link").text("People.com")
 $(".people-link").attr("href", "https://people.com/tag/"  + celeName.replace(" ", "-") + "/")
 
 // $(".forbes-link").text("See Forbes of " + celeName)
-$(".forbes-link").text("Forbes")
+$(".forbes-link").text("Forbes.com")
 $(".forbes-link").attr("href", "https://www.forbes.com/profile/"  + celeName.toLowerCase().replace(" ", "-")+ "/")
 
 
@@ -107,3 +107,10 @@ $.ajax({
         console.error('Error: ', jqXHR.responseText);
     }
 });
+
+
+$("#retake").on("click",toQuestions)
+
+function toQuestions(){
+    window.location="./index.html"
+}
