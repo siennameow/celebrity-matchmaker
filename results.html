@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Results</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/result.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
 <body>
@@ -13,11 +13,11 @@
     <main>
         <h1>Your celebrity match is</h1>
         <br>
-        <div class="buttons is-centered">
-            <a href="https://en.wikipedia.org/wiki/Margot_Robbie"><button id="start-button" class="button is-danger is-outlined">Wikipedia</button></a>
-            <a href="https://people.com/tag/margot-robbie/?page=4"><button id="start-button" class="button is-danger is-outlined">People.com</button></a>
-            <a href="https://www.instagram.com/margotrobbieofficial/?hl=en"><button id="start-button" class="button is-danger is-outlined">Instagram</button></a>
-            <a href="homepage.html"><button id="start-button" class="button is-danger is-outlined">Play Again</button></a>
+        <div class="user-input">
+            <p>Enter your name below to find your celebrity match!</p>
+            <input for="text" id="input">
+            <button id="button">Submit</button>
+            <ul></ul>
         </div>
     </main>
     <script src="assets/script/script.js"></script>
