@@ -2,8 +2,9 @@
 // var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=American%20male%20film%20actors"
 
 //retrive the image from wikipedia api
-var celeName = "Shawn Mendes"
+// var celeName = "Shawn Mendes"
 
+var celeName =localStorage.getItem('celebPick')
 // var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=Ariana%20Grande"
 var requestUrl = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageimages|pageterms&piprop=original&titles=" + celeName.replace(" ", "%20")
 
@@ -19,7 +20,7 @@ fetch(requestUrl + "&origin=*")
 // console.log(data.query.pages[0].pageimage)
 //   imageEl.attr("src", data.query.pages[0].original.source)
 //   imageEl.attr("style", "height:500px")
-$(".name").text(data.query.pages[0].title);
+$(".name").text(celeName);
 //   var celeName = $(".name")
 //   celeName.text(data.query.pages[0].title)
 
