@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD:assets/css/question.css
 
 .question{
     text-align: center;
@@ -11,22 +10,7 @@ body{
     background-color: #f699cd;
 }
 
-.h1{
-    
-    font-family: "Lobster", "cursive";
-    text-align: center;
-    font-weight: 900;
-    background: url(https://media.giphy.com/media/10rtoKqcDukJgc/giphy.gif);
-    -webkit-text-stroke: 0.5px;
-    -webkit-text-stroke-color: red;
-    color: deeppink;
-    
-}
-
-.h2{
-=======
 h2 {
->>>>>>> d17a5404f99af4ee1f97a3459db0816a9cf8177e:assets/css/style.css
 
     font-family: "Lobster", "cursive";
     text-align: center;
@@ -36,8 +20,6 @@ h2 {
     color: deeppink;
 }
 
-<<<<<<< HEAD:assets/css/question.css
-=======
 .body{
     background-color: #f699cd;
     height: 100vh;
@@ -77,4 +59,3 @@ h1{
     color: white;
     
 }
->>>>>>> d17a5404f99af4ee1f97a3459db0816a9cf8177e:assets/css/style.css
