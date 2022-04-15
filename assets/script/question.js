@@ -16,27 +16,18 @@ var incrementG = 0;
 var incrementBoth = 0;
 
 function chooseBoys(){
-    incrementB++;
-    if(incrementB%2 !==0){
-        chooseCeleb = concateArray.concat(boys);
-    }
+    chooseCeleb = concateArray.concat(boys);
     showResult();
 };
 
 function chooseGirls(){
-    incrementG++;
-    if(incrementG%2 !==0){
-        chooseCeleb = concateArray.concat(girls);
-    }
+    chooseCeleb = concateArray.concat(girls);
     showResult();
 };
 
 function chooseBoth(){
-    incrementBoth++;
-    if(incrementBoth%2 !==0){
-        chooseCeleb = boys.concat(girls);
-    }
-     showResult();
+    chooseCeleb = boys.concat(girls);
+    showResult();
 };
 
 var celebPick ='';
@@ -53,3 +44,17 @@ function showResult(){
 }
 
 
+function allLetter(inputtxt)
+      { 
+      var letters = /^[A-Za-z]+$/;
+      if(inputtxt.value.match(letters))
+      {
+      alert('Your name have accepted : you can try another');
+      return true;
+      }
+      else
+      {
+      alert('Please input alphabet characters only');
+      return false;
+      }
+}

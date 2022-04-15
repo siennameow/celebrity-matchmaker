@@ -27,7 +27,7 @@
         <button class="button is-outlined is-large is-danger">AOC</button>
     </div>
 
-    <div class="columns">
+    <div class="columns is-gapless">
         <div class="column">
             <figure class="image is-128x128">
                 <img class="is-rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rihanna_Fenty_2018.png/220px-Rihanna_Fenty_2018.png">
@@ -46,10 +46,27 @@
     </div>
     <progress class="progress is-danger" value="100" max="100">100%</progress>
     <br>
-<div class="buttons is is-centered">
-    <a href="questionfive.html"><button id="start-button" class="button is-danger is-outlined">Previous Question</button></a>
-    <a href="result.html"><button id="start-button" class="button is-danger is-outlined">Next Question</button></a>
-</div>
+    <div class="buttons is is-centered">
+        <a href="questionfive.html"><button id="start-button" class="button is-danger is-outlined">Previous Question</button></a>
+        <a href="result.html"><button id="start-button" class="button is-danger is-outlined">Next Question</button></a>
+    </div>
+
+    <div onload="document.form1.text1.focus" class="content">
+        <div class="mail">
+            <h2>Enter your Name and Submit</h2>
+            <form name="form1" action="#">
+                <ul>
+                    <li>Code:</li>
+                    <li><input type='text' name='text1'/></li>
+                    <li class="rq">*Enter alphabets only.</li>
+                    <li>&nbsp;</li>
+                    <li><input id="nextPage" type="submit" name="submit" value="Submit"  /></li>
+                    <li>&nbsp;</li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
 
     <script src="./assets/script/question.js"></script> 
 </body>
