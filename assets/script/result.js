@@ -25,7 +25,7 @@ $(".name").text(celeName);
 //   celeName.text(data.query.pages[0].title)
 
 $(".img").attr("src", data.query.pages[0].original.source)
-$(".img").attr("style", "height:600px")
+$(".img").attr("style", "height:350px")
 
 
 $(".intro").text("Oh come on! We all fell in love with  " + celeName + "  right? ");
