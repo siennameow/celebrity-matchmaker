@@ -179,7 +179,7 @@ The link of the webpage is: https://mayaimorales.github.io/celebrity-matchmaker/
 
 * **Maya Morales** - [LinkedIn](https://www.linkedin.com/in/maya-morales-1191351bb/)
 * **Sienna Li** - [LinkedIn](https://www.linkedin.com/in/hexuanli/)
-* **Alex Hernandez** - [LinkedIn](www.linkedin.com/in/alex-hernandez-438743233)
+* **Alex Hernandez** - [LinkedIn](https://www.linkedin.com/in/alex-hernandez-438743233)
 * **Callan Hunter** - [LinkedIn](https://www.linkedin.com/in/callan-hunter-195816196/)
 
 ## Credits 🙌
