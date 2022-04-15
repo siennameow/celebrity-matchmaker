@@ -25,7 +25,7 @@ body{
 
 
 li {list-style-type: none;
-    font-size: 16pt;
+    font-size: 30px;
     }
     .mail {
     margin: auto;
@@ -33,7 +33,7 @@ li {list-style-type: none;
     padding-bottom: 10px;
     width: 400px;
     background : 
-    #D8F1F8;
+    #f699cd;
     border: 1px solid 
     silver;
     }

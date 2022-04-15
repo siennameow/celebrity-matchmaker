@@ -18,6 +18,25 @@
         <h1>Please answer the question below</h1>
         <p>Question 6 of 6</p>
     </header>
+
+    
+    <div onload="document.form1.text1.focus">
+        <div class="mail">
+            <h2>Enter your Name and Submit</h2>
+            <form name="form1" action="#">
+                <ul>
+                    <li>Name</li>
+                    <li><input type='text' name='text1'/></li>
+                    <li class="rq"></li>
+                    <li>&nbsp;</li>
+                    <li><input type="submit" name="submit" value="Submit"  onclick="allLetter(document.form1.text1)"/></li>
+                    <li>&nbsp;</li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+
     <div class="content question">
         <h3>wich celebrity are you most attractded to</h3>
     </div>
@@ -48,24 +67,24 @@
     <br>
     <div class="buttons is is-centered">
         <a href="questionfive.html"><button id="start-button" class="button is-danger is-outlined">Previous Question</button></a>
-        <a href="result.html"><button id="start-button" class="button is-danger is-outlined">Next Question</button></a>
+        <a href="result.html"><button id="start-button" class="button is-danger is-outlined">See Result</button></a>
     </div>
-
+<!-- 
     <div onload="document.form1.text1.focus" class="content">
         <div class="mail">
             <h2>Enter your Name and Submit</h2>
             <form name="form1" action="#">
-                <ul>
-                    <li>Code:</li>
-                    <li><input type='text' name='text1'/></li>
-                    <li class="rq">*Enter alphabets only.</li>
-                    <li>&nbsp;</li>
-                    <li><input id="nextPage" type="submit" name="submit" value="Submit"  /></li>
-                    <li>&nbsp;</li>
-                </ul>
+            <ul>
+            <li>Code:</li>
+            <li><input type='text' name='text1'/></li>
+            <li class="rq"></li>
+            <li>&nbsp;</li>
+            <li><input type="submit" name="submit" value="Submit" onclick="allLetter(document.form1.text1)" /></li>
+            <li>&nbsp;</li>
+            </ul>
             </form>
-        </div>
-    </div>
+            </div>
+    </div> -->
 
 
     <script src="./assets/script/question.js"></script> 
