@@ -1,6 +1,6 @@
 // celebrity choices 
-var girls = ['Zendaya','Margot Robbie','Saweetie'];
-var boys =['Tom Holland','Zac Efron','Justin Bieber'];
+var girls = ['Zendaya','Margot Robbie','Saweetie','Camila Cabello', 'Dua Lipa','Ariana Grande','Selena Gomez','Taylor Swift'];
+var boys =['Tom Holland','Zac Efron','Justin Bieber','Shawn Mendes','Jack Harlow','Dwayne Johnson','Steph Curry','Lebron James'];
 
 var concateArray =[];
 var chooseCeleb =[];
