@@ -4,7 +4,7 @@
 
 We built a fun, cheesy, cliche celebrity matchmaker application that uses a series of questions to find your celebrity match.
 
-Users will see a welcomepage poping when they enter the app. By clicking the start button, they will be asked to answer a series of questions that will obtain information about the their dating preferences/interests. This information will help narrow down to one celebrity for their perfect match. They will then asked to input a name to check the reult. After complete the user input, they'll be able to see the final result of their match, a quote from Kanye, together with links to check more information at [Wikipedia Page](https://en.wikipedia.org/wiki/Main_Page), [people.com](https://people.com/) and [Forbes](https://www.forbes.com/?sh=11854e802254). 
+Users will see a welcome page when they enter the app. By clicking the start button, they will be asked to answer a series of questions that will obtain information about the their dating preferences/interests. This information will help narrow down to one celebrity for their perfect match. They will then be asked to input a name to see their result. After completing the user input, they'll be able to see the final result of their match, a quote from Kanye, together with links to see more information about their celebrity match at [Wikipedia Page](https://en.wikipedia.org/wiki/Main_Page), [people.com](https://people.com/) and [Forbes](https://www.forbes.com/?sh=11854e802254). 
 
 The application leverages [Wikipedia REST API](https://wikimedia.org/api/rest_v1/) ,[CelebrityNinjas API](https://celebrityninjas.com/api) and [Kanye Rest API](https://kanye.rest/) to retrive the data and build user interface. It is easy for you to access through one link : https://mayaimorales.github.io/celebrity-matchmaker/ and is designed to work with different screen sizes as you need.
 
@@ -34,7 +34,7 @@ Find your perfect celebrity match now!
 
 ⚡️ Quiz with multiple choice questions\
 ⚡️ Buttons to start, go to next/previous page, and restart\
-⚡️ Pink cheesy theme \
+⚡️ Pink, Sparkly theme \
 ⚡️ Celebrity name and image\
 ⚡️ Link to see more info\
 ⚡️ Kanye Quote\
@@ -44,7 +44,7 @@ Find your perfect celebrity match now!
 
 HTML
 
-Each Question page has a question, three button styled choices, and two button to go to next or previous question page. Also there's a progress bar indicating the user progress.
+Each Question page has a question, three button styled choices, and two buttons to go to the next or previous question page. Also there's a progress bar indicating the user progress.
 ```HTML
     <header>
         <h1>Please answer the question below</h1>
@@ -148,10 +148,10 @@ $(".forbes-link").attr("href", "https://www.forbes.com/profile/"  + celeName.toL
 The link of the webpage is: https://mayaimorales.github.io/celebrity-matchmaker/
 
 - Step 1: Load the webpage. You'll see a welcome page and start button.
-- Step 2 :Start your quiz and answer all the questions,
-- Step 3 :Write down your name and click the result button to check the result.
-- Step 4 :See your result and check more info through the link.
-- Step 5 :You can restart quiz with a button.
+- Step 2: Start your quiz and answer all of the questions,
+- Step 3: Write down your name and click the result button to check the result.
+- Step 4: See your result and check for more info through the given links.
+- Step 5: You can restart quiz with a button.
 
 
 ## Skill Improved 📚
