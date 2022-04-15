@@ -25,6 +25,7 @@ Find your perfect celebrity match now!
 ## Webpage Preview ⭐
  
  
+![Celebrity Matchmaker (6)](https://user-images.githubusercontent.com/101283174/163512126-d8f0d253-8d8f-4f7d-9a83-010d1c50411c.gif)
 
 
 
@@ -43,7 +44,7 @@ Find your perfect celebrity match now!
 
 HTML
 
-Each Question page has a <h1>question, three button styled choices, and two button to go to next or previous question page. Also there's a progress bar indicating the user progress.
+Each Question page has a question, three button styled choices, and two button to go to next or previous question page. Also there's a progress bar indicating the user progress.
 ```HTML
     <header>
         <h1>Please answer the question below</h1>
