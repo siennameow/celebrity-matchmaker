@@ -1,4 +1,5 @@
 # Celebrity Matchmaker
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/celebrity-matchmaker/blob/main/LICENSE)
 
 ## Description 📝 
 
@@ -19,6 +20,7 @@ Find your perfect celebrity match now!
 * [Usage 💡](#usage-)
 * [Skill-Improved 📚](#skill-improved-)
 * [Technologies 🔧](#technologies-)
+* [License 📜](#license-)
 * [Authors 👩](#authors-)
 * [Credits 🙌](#credits-)
 
@@ -174,6 +176,9 @@ The link of the webpage is: https://mayaimorales.github.io/celebrity-matchmaker/
 * [jQuery](https://jquery.com/)
 * [Bulma](https://bulma.io/)
 * [Google Fonts](https://fonts.google.com//)
+
+## License 📜
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/celebrity-matchmaker/blob/main/LICENSE)
 
 ## Authors 👩
 
